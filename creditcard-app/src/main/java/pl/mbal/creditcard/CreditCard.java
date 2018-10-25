@@ -2,7 +2,7 @@ package pl.mbal.creditcard;
 
 class CreditCard {
     
-    boolean status = false;
+    boolean blocked = false;
     
     public void assignLimit(double money) {
         
@@ -14,7 +14,7 @@ class CreditCard {
     
     public void block()
     {
-        this.status = false;
+        this.blocked = true;
     }
     
     public boolean isBlocked()
