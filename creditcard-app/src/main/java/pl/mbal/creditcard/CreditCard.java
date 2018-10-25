@@ -16,4 +16,9 @@ class CreditCard {
     {
         this.status = false;
     }
+    
+    public boolean isBlocked()
+    {
+        return status;
+    }
 }
