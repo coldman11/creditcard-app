@@ -1,4 +1,4 @@
-package pl.jkan.creditcard;
+package pl.mbal.creditcard;
 
 import org.junit.Assert;
 import org.junit.Test;

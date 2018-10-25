@@ -1,4 +1,4 @@
-package pl.jkan.creditcard;
+package pl.mbal.creditcard;
 
 class CreditCard {
     public void assignLimit(double money) {
