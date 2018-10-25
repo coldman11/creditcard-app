@@ -19,6 +19,6 @@ class CreditCard {
     
     public boolean isBlocked()
     {
-        return status;
+        return blocked;
     }
 }
