@@ -2,7 +2,7 @@ package pl.mbal.creditcard;
 
 class CreditCard {
     
-    boolean status = true;
+    boolean status = false;
     
     public void assignLimit(double money) {
         
