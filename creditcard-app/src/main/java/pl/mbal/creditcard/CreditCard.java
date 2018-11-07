@@ -3,13 +3,14 @@ package pl.mbal.creditcard;
 class CreditCard {
     
     boolean blocked = false;
+    int limit;
     
     public void assignLimit(double money) {
-        
+        this.limit = money;
     }
     
     public double getLimit() {
-        return 2000;
+        return limit;
     }
     
     public void block()
