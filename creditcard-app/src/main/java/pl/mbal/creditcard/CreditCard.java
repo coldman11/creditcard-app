@@ -22,4 +22,9 @@ class CreditCard {
     {
         return blocked;
     }
+
+    public void repay(int money)
+    {
+        this.limit = this.limit + money;
+    }
 }
